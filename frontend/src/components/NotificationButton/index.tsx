@@ -1,5 +1,5 @@
-import img from '../../assets/img/Vector.svg'
-import './styled.css'
+import img from '../../assets/img/Vector.svg';
+import './styled.css';
 
 function NotificationButton() {
     return(

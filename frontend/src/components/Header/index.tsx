@@ -1,5 +1,5 @@
-import img from '../../assets/img/Headerimg.svg'
-import './styled.css'
+import img from '../../assets/img/Headerimg.svg';
+import './styled.css';
 
 function Header() {
     return(
