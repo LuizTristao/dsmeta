@@ -1,5 +1,6 @@
 {
     "configurations": [
+
         {
             "type": "java",
             "name": "Spring Boot-BackendApplication<backend>",
@@ -8,7 +9,13 @@
             "mainClass": "com.devsuperior.backend.BackendApplication",
             "projectName": "backend",
             "args": "",
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/.env",
+            "env": {
+                "TWILIO_SID": "ACf46e3b381018fc90b697caf4b86e596d",
+                "TWILIO_KEY": "7306e1632a7409724c11b4bce32dd865",
+                "TWILIO_PHONE_FROM": "+19706346916",
+                "TWILIO_PHONE_TO": "+5534988047926"
+            }
         }
     ]
 }
